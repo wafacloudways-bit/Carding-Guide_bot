@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 
 db = Database('bot_database.db')
 
-bot = Bot(BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
+bot = Bot(8693796900:AAHqD_NvImjissaeBY0QfWYsw1XmiiGbDXs, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
